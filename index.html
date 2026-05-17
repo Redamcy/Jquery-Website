@@ -1,0 +1,1491 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta name="description" content="Gamingspot App">
+    <meta name="keywords" content="Games, Gamingspot">
+    <meta name="author" content="Yusuf Husain">
+    <title>Gamingspot App</title>
+    <!-- Framework's CSS Files -->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <!-- Our CSS Files -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+</head>
+
+<body>
+    <!-- splash jQM page -->
+    <div data-role="page" id="homePage" data-theme="b">
+        <div data-role="header">
+            <a href="#" data-rel="back"
+                class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-arrow-l ui-btn-icon-notext ui-btn-left ui-btn-b">Close</a>
+
+            <h1 class="SLogo">GAMINGSPOT</h1>
+            <a href="#nav-panelH" data-icon="bars" data-iconpos="notext" class="ui-btn-right"
+                data-transition="fade">Menu</a>
+        </div>
+        <div data-role="panel" id="nav-panelH" data-position="right" data-transition="fade">
+            <ul data-role="listview" data-transition="fade">
+                <a href="#homePage" class="ui-btn">
+                    <li>Home</li>
+                </a>
+                <a href="#aboutPage" class="ui-btn">
+                    <li>About</li>
+                </a>
+                <a href="#gamePage" class="ui-btn">
+                    <li>Games</li>
+                </a>
+                <a href="#reviewsPage" class="ui-btn">
+                    <li>Reviews</li>
+                </a>
+                <a href="#searchPage" class="ui-btn">
+                    <li>Search</li>
+                </a>
+                <a href="#contactPage" class="ui-btn">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+            <div id="slideshow">
+                <div>
+                    <img src="images/amongus.png" alt="amongus">
+                </div>
+                <div>
+                    <img src="images/deliver us mars.jpg" alt="deliver us mars">
+                </div>
+                <div>
+                    <img src="images/sifu.jpg" alt="Blizard wide">
+                </div>
+                <div>
+                    <img src="images/cod.jpg" alt="cod">
+                </div>
+                <div>
+                    <img src="images/fifa.jpg" alt="assasin creed">
+                </div>
+            </div>
+            <div id="section2H">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a"><a href="#aboutPage" class="ui-btn ui-shadow ui-corner-all" style="background-color: #373737 ; font-size: 16px; border: 3px solid #FF5405;
+ color: white; text-shadow: none; ">About Us</a></div>
+                    <div class="ui-block-b"><a href="#gamePage" class="ui-btn ui-shadow ui-corner-all"
+                            style="background-color: #373737 ; font-size: 16px; color: white; text-shadow: none; border: 3px solid #FF5405;">Games</a>
+                    </div>
+                </div>
+                <a href="#reviewsPage" class="ui-btn ui-shadow ui-corner-all" style="margin: 0 auto; display: block; font-size: 16px; width: 38%; text-align: center; background-color: #373737 ;  border: 3px solid #FF5405;
+ color: white; text-shadow: none; ">Reviews</a>
+            </div><br>
+            <div>
+                <br>
+                <h4 style="text-align: center;">Most Popular</h4>
+                <br>
+                <div class="scrollmenu">
+                    <a href="#deadSpace"><img src="images/dead space.jpg"></a>
+                    <a href="#eldenRing"><img src="images/elden ring.jpg"></a>
+                    <a href="#cod"><img src="images/cod.jpg"></a>
+                    <a href="#AmongusPage"><img src="images/amongus.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of splash jQM page-->
+    <!-- A jQM download page -->
+    <div data-role="page" id="download" data-theme="b">
+        <div data-role="header">
+            <a href="#" data-rel="back"
+                class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-arrow-l ui-btn-icon-notext ui-btn-left ui-btn-b">Close</a>
+            <h1 class="SLogo">GAMINGSPOT</h1>
+
+            <a href="#nav-panel-download" data-icon="bars" data-iconpos="notext" class="ui-btn-right"
+                data-transition="fade">Menu</a>
+        </div>
+        <div data-role="panel" id="nav-panel-download" data-position="right" data-transition="fade">
+            <ul data-role="listview" data-transition="fade">
+                <a href="#homePage" class="ui-btn">
+                    <li>Home</li>
+                </a>
+                <a href="#aboutPage" class="ui-btn">
+                    <li>About</li>
+                </a>
+                <a href="#gamePage" class="ui-btn">
+                    <li>Games</li>
+                </a>
+                <a href="#reviewsPage" class="ui-btn">
+                    <li>Reviews</li>
+                </a>
+                <a href="#searchPage" class="ui-btn">
+                    <li>Search</li>
+                </a>
+                <a href="#contactPage" class="ui-btn">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <br><br><br><br><br>
+            <img src="images/check.png" alt="">
+            <br><br><br>
+            <h5 style="text-align: center; font-size: 15px;">The game has been downloaded</h5>
+            <br><br><br>
+            <a href="#homePage" class="ui-btn ui-shadow ui-corner-all" style="background-color: #373737 ; font-size: 16px; border: 3px solid #FF5405;
+        color: white; text-shadow: none; width: 60%; display: block; margin: 0 auto;">Back To Home</a>
+        </div>
+
+    </div>
+    <!-- End of download page-->
+    <!-- A jQM plagueTale page -->
+    <div data-role="page" id="plagueTale" data-theme="b">
+        <div data-role="header">
+            <a href="#" data-rel="back"
+                class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-arrow-l ui-btn-icon-notext ui-btn-left ui-btn-b">Close</a>
+
+            <h1 class="SLogo">GAMINGSPOT</h1>
+            <a href="#nav-panel-plagueTale" data-icon="bars" data-iconpos="notext" class="ui-btn-right"
+                data-transition="fade">Menu</a>
+        </div>
+        <div data-role="panel" id="nav-panel-plagueTale" data-position="right" data-transition="fade">
+            <ul data-role="listview" data-transition="fade">
+                <a href="#homePage" class="ui-btn">
+                    <li>Home</li>
+                </a>
+                <a href="#aboutPage" class="ui-btn">
+                    <li>About</li>
+                </a>
+                <a href="#gamePage" class="ui-btn">
+                    <li>Games</li>
+                </a>
+                <a href="#reviewsPage" class="ui-btn">
+                    <li>Reviews</li>
+                </a>
+                <a href="#searchPage" class="ui-btn">
+                    <li>Search</li>
+                </a>
+                <a href="#contactPage" class="ui-btn">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h4 style="font-size: 20px; text-align: center; color: #FF5405;">Plague Tale</h4><br>
+            <img src="images/plague tale.jpg" width="90%" style="margin: 0 auto; display: block; border-radius: 10px;">
+            <br>
+            <h4 style="text-align: center; color: #FF5405;">About the game</h4><br>
+            <p style="font-size: 12px;text-align: center; width: 80%; display: block; margin: 0 auto;">After escaping
+                their devastated homeland, Amicia and Hugo travel far south, to new regions and vibrant cities. There,
+                they attempt to start a new life and control Hugo curse. But, when Hugo's powers reawaken, death and
+                destruction return in a flood of devouring rats.</p><br><br>
+            <div id="row">
+                <div>
+                    <h4 style="color: #FF5405;">Software:</h4>
+                    <p style="font-size: 12px;text-align: left;">Steam</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Developer:</h4>
+                    <p style="font-size: 12px;text-align: left;">Asobo Studio</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Publisher:</h4>
+                    <p style="font-size: 12px;text-align: left;">Focus Entertainment</p>
+                    <br>
+                </div>
+                <div>
+                    <h4 style="color: #FF5405;">Release date:</h4>
+                    <p style="font-size: 12px;text-align: left;">17 October 2022</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Genre:</h4>
+                    <p style="font-size: 12px;text-align: left;">Stealth, Action, Adventure</p>
+                    <br>
+                </div>
+            </div>
+            <br>
+            <a href="#download" class="ui-btn ui-shadow ui-corner-all" style="background-color: #373737 ; font-size: 16px; border: 3px solid #FF5405;
+                    color: white; text-shadow: none; width: 80%; display: block; margin: 0 auto;">Download Now</a>
+            <br>
+            <h4 style="text-align: center; color: #FF5405;">Visuals</h4>
+            <br>
+            <img src="images/PlagueTaleV5.png" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"> <br>
+            <img src="images/PlagueTaleV4.png" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"> <br>
+            <img src="images/PlagueTaleV3.png" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"><br>
+            <img src="images/PlagueTaleV2.png" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"><br>
+            <img src="images/PlagueTaleV1.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;">
+        </div>
+    </div>
+    <!-- End of plagueTale page-->
+    <!-- A jQM tombraider page -->
+    <div data-role="page" id="tombraider" data-theme="b">
+        <div data-role="header">
+            <a href="#" data-rel="back"
+                class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-arrow-l ui-btn-icon-notext ui-btn-left ui-btn-b">Close</a>
+
+            <h1 class="SLogo">GAMINGSPOT</h1>
+            <a href="#nav-panel-tombraider" data-icon="bars" data-iconpos="notext" class="ui-btn-right"
+                data-transition="fade">Menu</a>
+        </div>
+        <div data-role="panel" id="nav-panel-tombraider" data-position="right" data-transition="fade">
+            <ul data-role="listview" data-transition="fade">
+                <a href="#homePage" class="ui-btn">
+                    <li>Home</li>
+                </a>
+                <a href="#aboutPage" class="ui-btn">
+                    <li>About</li>
+                </a>
+                <a href="#gamePage" class="ui-btn">
+                    <li>Games</li>
+                </a>
+                <a href="#reviewsPage" class="ui-btn">
+                    <li>Reviews</li>
+                </a>
+                <a href="#searchPage" class="ui-btn">
+                    <li>Search</li>
+                </a>
+                <a href="#contactPage" class="ui-btn">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h4 style="font-size: 20px; text-align: center; color: #FF5405;">Tomb Raider</h4>
+            <br>
+            <img src="images/tombraider.jpg" width="90%" style="margin: 0 auto; display: block; border-radius: 10px;">
+            <br>
+            <h4 style="text-align: center; color: #FF5405;">About the game</h4>
+            <br>
+            <p style="font-size: 12px;text-align: center; width: 80%; display: block; margin: 0 auto;">Shadow of the
+                Tomb Raider takes place two months after the events of Rise of the Tomb Raider. Lara Croft and her
+                expedition partner, Jonah Maiava, have been keeping tabs on the antagonistic group, Trinity, to prevent
+                them from unleashing havoc upon the world through ancient, supernatural relics. Lara and Jonah track
+                trinity to the city of Cozumel, Mexico, uncovering an operation led by Pedro Dominguez, the head of
+                Trinity High Council.</p><br><br>
+            <div id="row">
+                <div>
+                    <h4 style="color: #FF5405;">Software:</h4>
+                    <p style="font-size: 12px;text-align: left;">Steam</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Developer:</h4>
+                    <p style="font-size: 12px;text-align: left;">Eidos Montreal</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Publisher:</h4>
+                    <p style="font-size: 12px;text-align: left;">Square Enix Europe</p>
+                    <br>
+                </div>
+                <div>
+                    <h4 style="color: #FF5405;">Release date:</h4>
+                    <p style="font-size: 12px;text-align: left;">15 September 2022</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Genre:</h4>
+                    <p style="font-size: 12px;text-align: left;">Puzzle, Adventure, Action</p>
+                    <br>
+                </div>
+            </div>
+            <br> <a href="#download" class="ui-btn ui-shadow ui-corner-all" style="background-color: #373737 ; font-size: 16px; border: 3px solid #FF5405;
+            color: white; text-shadow: none; width: 80%; display: block; margin: 0 auto;">Download Now</a><br>
+            <h4 style="text-align: center; color: #FF5405;">Visuals</h4>
+            <br>
+            <img src="images/TombRaiderV5.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"> <br>
+            <img src="images/TombRaiderV4.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"> <br>
+            <img src="images/TombRaiderV3.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"><br>
+            <img src="images/TombRaiderV2.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"><br>
+            <img src="images/TombRaiderV1.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;">
+        </div>
+    </div>
+    <!-- End of tombraider page-->
+    <!-- A jQM eldenRing page -->
+    <div data-role="page" id="eldenRing" data-theme="b">
+        <div data-role="header">
+            <a href="#" data-rel="back"
+                class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-arrow-l ui-btn-icon-notext ui-btn-left ui-btn-b">Close</a>
+
+            <h1 class="SLogo">GAMINGSPOT</h1>
+            <a href="#nav-panel-eldenRing" data-icon="bars" data-iconpos="notext" class="ui-btn-right"
+                data-transition="fade">Menu</a>
+        </div>
+        <div data-role="panel" id="nav-panel-eldenRing" data-position="right" data-transition="fade">
+            <ul data-role="listview" data-transition="fade">
+                <a href="#homePage" class="ui-btn">
+                    <li>Home</li>
+                </a>
+                <a href="#aboutPage" class="ui-btn">
+                    <li>About</li>
+                </a>
+                <a href="#gamePage" class="ui-btn">
+                    <li>Games</li>
+                </a>
+                <a href="#reviewsPage" class="ui-btn">
+                    <li>Reviews</li>
+                </a>
+                <a href="#searchPage" class="ui-btn">
+                    <li>Search</li>
+                </a>
+                <a href="#contactPage" class="ui-btn">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <h4 style="font-size: 19px; text-align: center; color: #FF5405;">Elden Ring</h4>
+            <br>
+            <img src="images/elden ring.jpg" width="90%" style="margin: 0 auto; display: block; border-radius: 10px;">
+            <br>
+            <h4 style="text-align: center; color: #FF5405;">About the game</h4>
+            <br>
+            <p style="font-size: 12px;text-align: center; width: 80%; display: block; margin: 0 auto;">It happened an
+                age ago. But when I recall, I see it true. On a night of wintry fog. The rune of death was stolen And
+                the demigods began to fall, starting with Godwyn the Golden. Queen Marika was driven to the brink. The
+                Shattering ensued; a war that wrought only darkness. The Elden Ring was broken, but by whom? And why?
+                What could the Demigods ever hope to win by warring? The conqueror of the stars, General Radahn. And the
+                Blade of Miquella, Malenia the Severed. These two were the mightiest to remain, and locked horns in
+                combat. But there would be no victor. And so, we inhabit a fractured world. Awaiting the arrival of the
+                Elden Lord. Unless of course, thou shouldst take the crown?</p><br><br>
+            <div id="row">
+                <div>
+                    <h4 style="color: #FF5405;">Software:</h4>
+                    <p style="font-size: 12px;text-align: left;">Steam</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Developer:</h4>
+                    <p style="font-size: 12px;text-align: left;">FromSoftware</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Publisher:</h4>
+                    <p style="font-size: 12px;text-align: left;">Bandai</p>
+                    <br>
+                </div>
+                <div>
+                    <h4 style="color: #FF5405;">Release date:</h4>
+                    <p style="font-size: 12px;text-align: left;">25 February 2022</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Genre:</h4>
+                    <p style="font-size: 12px;text-align: left;">Fighting, Adventure, Action</p>
+                    <br>
+                </div>
+            </div>
+            <br><a href="#download" class="ui-btn ui-shadow ui-corner-all" style="background-color: #373737 ; font-size: 16px; border: 3px solid #FF5405;
+            color: white; text-shadow: none; width: 80%; display: block; margin: 0 auto;">Download Now</a><br>
+            <h4 style="text-align: center; color: #FF5405;">Visuals</h4>
+            <br>
+            <img src="images/eldenV2.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"> <br>
+            <img src="images/eldenV1.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"> <br>
+            <img src="images/eldenV3.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"><br>
+            <img src="images/eldenV4.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"><br>
+            <img src="images/eldenV5.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;">
+        </div>
+    </div>
+    <!-- End of eldenRing page-->
+    <!-- A jQM deadSpace page -->
+    <div data-role="page" id="deadSpace" data-theme="b">
+        <div data-role="header">
+            <a href="#" data-rel="back"
+                class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-arrow-l ui-btn-icon-notext ui-btn-left ui-btn-b">Close</a>
+
+            <h1 class="SLogo">GAMINGSPOT</h1>
+            <a href="#nav-panel-deadSpace" data-icon="bars" data-iconpos="notext" class="ui-btn-right"
+                data-transition="fade">Menu</a>
+        </div>
+        <div data-role="panel" id="nav-panel-deadSpace" data-position="right" data-transition="fade">
+            <ul data-role="listview" data-transition="fade">
+                <a href="#homePage" class="ui-btn">
+                    <li>Home</li>
+                </a>
+                <a href="#aboutPage" class="ui-btn">
+                    <li>About</li>
+                </a>
+                <a href="#gamePage" class="ui-btn">
+                    <li>Games</li>
+                </a>
+                <a href="#reviewsPage" class="ui-btn">
+                    <li>Reviews</li>
+                </a>
+                <a href="#searchPage" class="ui-btn">
+                    <li>Search</li>
+                </a>
+                <a href="#contactPage" class="ui-btn">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <h4 style="font-size: 19px; text-align: center; color: #FF5405;">Dead Space</h4>
+            <br>
+            <img src="images/dead space.jpg" width="90%" style="margin: 0 auto; display: block; border-radius: 10px;">
+            <br>
+            <h4 style="text-align: center; color: #FF5405;">About the game</h4><br>
+            <p style="font-size: 12px;text-align: center; width: 80%; display: block; margin: 0 auto;">Dead Space is set
+                in the year 2508, a time when humanity has spread throughout the universe. Following near-extinction of
+                humans on Earth due to resource shortages, ships dubbed Planetcrackers are being used to harvest
+                resources from barren planets.</p><br><br>
+            <div id="row">
+                <div>
+                    <h4 style="color: #FF5405;">Software:</h4>
+                    <p style="font-size: 12px;text-align: left;">Steam</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Developer:</h4>
+                    <p style="font-size: 12px;text-align: left;">Motive</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Publisher:</h4>
+                    <p style="font-size: 12px;text-align: left;">Electronic Arts</p>
+                    <br>
+                </div>
+                <div>
+                    <h4 style="color: #FF5405;">Release date:</h4>
+                    <p style="font-size: 12px;text-align: left;">12 October 2022</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Genre:</h4>
+                    <p style="font-size: 12px;text-align: left;">Survival, Adventure, Action</p>
+                    <br>
+                </div>
+            </div>
+            <br><a href="#download" class="ui-btn ui-shadow ui-corner-all" style="background-color: #373737 ; font-size: 16px; border: 3px solid #FF5405;
+            color: white; text-shadow: none; width: 80%; display: block; margin: 0 auto;">Download Now</a><br>
+            <h4 style="text-align: center; color: #FF5405;">Visuals</h4><br>
+            <img src="images/DeadSpaceV1.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"> <br>
+            <img src="images/DeadSpaceV2.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"> <br>
+            <img src="images/DeadSpaceV3.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"><br>
+            <img src="images/DeadSpaceV4.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"><br>
+            <img src="images/DeadSpaceV5.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;">
+        </div>
+    </div>
+    <!-- End of dead Space page-->
+    <!-- A jQM sifu page -->
+    <div data-role="page" id="sifu" data-theme="b">
+        <div data-role="header">
+            <a href="#" data-rel="back"
+                class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-arrow-l ui-btn-icon-notext ui-btn-left ui-btn-b">Close</a>
+
+            <h1 class="SLogo">GAMINGSPOT</h1>
+            <a href="#nav-panel-sifu" data-icon="bars" data-iconpos="notext" class="ui-btn-right"
+                data-transition="fade">Menu</a>
+        </div>
+        <div data-role="panel" id="nav-panel-sifu" data-position="right" data-transition="fade">
+            <ul data-role="listview" data-transition="fade">
+                <a href="#homePage" class="ui-btn">
+                    <li>Home</li>
+                </a>
+                <a href="#aboutPage" class="ui-btn">
+                    <li>About</li>
+                </a>
+                <a href="#gamePage" class="ui-btn">
+                    <li>Games</li>
+                </a>
+                <a href="#reviewsPage" class="ui-btn">
+                    <li>Reviews</li>
+                </a>
+                <a href="#searchPage" class="ui-btn">
+                    <li>Search</li>
+                </a>
+                <a href="#contactPage" class="ui-btn">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h4 style="font-size: 19px; text-align: center; color: #FF5405;">Sifu</h4><br>
+            <img src="images/sifu.jpg" width="90%" style="margin: 0 auto; display: block; border-radius: 10px;"> <br>
+            <h4 style="text-align: center; color: #FF5405;">About the game</h4><br>
+            <p style="font-size: 12px;text-align: center; width: 80%; display: block; margin: 0 auto;">A young Kung Fu
+                student on a path of revenge, hunting for the murderers of his family. One against all, he has no
+                allies, and countless enemies. He has to rely on his unique mastery of Kung Fu as well as a mysterious
+                pendant to prevail, and preserve his family's legacy.</p><br><br>
+            <div id="row">
+                <div>
+                    <h4 style="color: #FF5405;">Software:</h4>
+                    <p style="font-size: 12px;text-align: left;">Steam</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Developer:</h4>
+                    <p style="font-size: 12px;text-align: left;">Sloclap</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Publisher:</h4>
+                    <p style="font-size: 12px;text-align: left;">Kepler Interactive</p>
+                    <br>
+                </div>
+                <div>
+                    <h4 style="color: #FF5405;">Release date:</h4>
+                    <p style="font-size: 12px;text-align: left;">8 February 2023</p>
+                    <br><br>
+                    <h4 style="color: #FF5405;">Genre:</h4>
+                    <p style="font-size: 12px;text-align: left;">Stealth, Adventure, Action</p>
+                    <br>
+                </div>
+            </div>
+            <br><a href="#download" class="ui-btn ui-shadow ui-corner-all" style="background-color: #373737 ; font-size: 16px; border: 3px solid #FF5405;
+            color: white; text-shadow: none; width: 80%; display: block; margin: 0 auto;">Download Now</a><br>
+            <h4 style="text-align: center; color: #FF5405;">Visuals</h4><br>
+            <img src="images/sifuV1.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"> <br>
+            <img src="images/sifuV2.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"> <br>
+            <img src="images/sifuV3.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"><br>
+            <img src="images/sifuV4.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"><br>
+            <img src="images/sifuV5.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;">
+        </div>
+    </div>
+    <!-- End of sifu page-->
+    <!-- A jQM fifa page -->
+    <div data-role="page" id="fifa" data-theme="b">
+        <div data-role="header">
+            <a href="#" data-rel="back"
+                class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-arrow-l ui-btn-icon-notext ui-btn-left ui-btn-b">Close</a>
+
+            <h1 class="SLogo">GAMINGSPOT</h1>
+            <a href="#nav-panel-fifa" data-icon="bars" data-iconpos="notext" class="ui-btn-right"
+                data-transition="fade">Menu</a>
+        </div>
+        <div data-role="panel" id="nav-panel-fifa" data-position="right" data-transition="fade">
+            <ul data-role="listview" data-transition="fade">
+                <a href="#homePage" class="ui-btn">
+                    <li>Home</li>
+                </a>
+                <a href="#aboutPage" class="ui-btn">
+                    <li>About</li>
+                </a>
+                <a href="#gamePage" class="ui-btn">
+                    <li>Games</li>
+                </a>
+                <a href="#reviewsPage" class="ui-btn">
+                    <li>Reviews</li>
+                </a>
+                <a href="#searchPage" class="ui-btn">
+                    <li>Search</li>
+                </a>
+                <a href="#contactPage" class="ui-btn">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h4 style="font-size: 19px; text-align: center; color: #FF5405;">FIFA 23</h4><br>
+            <img src="images/fifa.jpg" width="90%" style="margin: 0 auto; display: block; border-radius: 10px;"> <br>
+            <h4 style="text-align: center; color: #FF5405;">About the game</h4><br>
+            <p style="font-size: 12px;text-align: center; width: 80%; display: block; margin: 0 auto;">FIFA 23 features
+                the men World Cup game mode and is reported to feature the women World Cup game mode in the future,
+                replicating the 2022 FIFA World Cup and the 2023 FIFA Women World Cup. The 2022 FIFA World Cup mode was
+                released on 9 November for all platforms except for the Nintendo Switch Legacy Edition.</p><br><br>
+            <div id="row">
+                <div>
+                    <h4 style="color: #FF5405;">Software:</h4>
+                    <p style="font-size: 12px;text-align: left;">Steam</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Developer:</h4>
+                    <p style="font-size: 12px;text-align: left;">EA Sports</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Publisher:</h4>
+                    <p style="font-size: 12px;text-align: left;">EA Sports</p>
+                    <br>
+                </div>
+                <div>
+                    <h4 style="color: #FF5405;">Release date:</h4>
+                    <p style="font-size: 12px;text-align: left;">27 September 2022</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Genre:</h4>
+                    <p style="font-size: 12px;text-align: left;">Sport, Simulation</p>
+                    <br>
+                </div>
+            </div>
+            <br><a href="#download" class="ui-btn ui-shadow ui-corner-all" style="background-color: #373737 ; font-size: 16px; border: 3px solid #FF5405;
+            color: white; text-shadow: none; width: 80%; display: block; margin: 0 auto;">Download Now</a><br>
+            <h4 style="text-align: center; color: #FF5405;">Visuals</h4><br>
+            <img src="images/fifaV1.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"> <br>
+            <img src="images/fifaV2.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"> <br>
+            <img src="images/fifaV3.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"><br>
+            <img src="images/fifaV4.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"><br>
+            <img src="images/fifaV5.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;">
+        </div>
+    </div>
+    <!-- End of fifa page-->
+    <!-- A jQM cod page -->
+    <div data-role="page" id="cod" data-theme="b">
+        <div data-role="header">
+            <a href="#" data-rel="back"
+                class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-arrow-l ui-btn-icon-notext ui-btn-left ui-btn-b">Close</a>
+
+            <h1 class="SLogo">GAMINGSPOT</h1>
+            <a href="#nav-panel-cod" data-icon="bars" data-iconpos="notext" class="ui-btn-right"
+                data-transition="fade">Menu</a>
+        </div>
+        <div data-role="panel" id="nav-panel-cod" data-position="right" data-transition="fade">
+            <ul data-role="listview" data-transition="fade">
+                <a href="#homePage" class="ui-btn">
+                    <li>Home</li>
+                </a>
+                <a href="#aboutPage" class="ui-btn">
+                    <li>About</li>
+                </a>
+                <a href="#gamePage" class="ui-btn">
+                    <li>Games</li>
+                </a>
+                <a href="#reviewsPage" class="ui-btn">
+                    <li>Reviews</li>
+                </a>
+                <a href="#searchPage" class="ui-btn">
+                    <li>Search</li>
+                </a>
+                <a href="#contactPage" class="ui-btn">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h4 style="font-size: 19px; text-align: center; color: #FF5405;">Call Of Duty</h4><br>
+            <img src="images/cod.jpg" width="90%" style="margin: 0 auto; display: block; border-radius: 10px;"> <br>
+            <h4 style="text-align: center; color: #FF5405;">About the game</h4><br>
+            <p style="font-size: 12px;text-align: center; width: 80%; display: block; margin: 0 auto;">You play various
+                American servicemen and their allies in World War II as the Western Allies fight their way through
+                Europe during and after the invasion of Normandy.</p><br><br>
+            <div id="row">
+                <div>
+                    <h4 style="color: #FF5405;">Software:</h4>
+                    <p style="font-size: 12px;text-align: left;">Steam</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Developer:</h4>
+                    <p style="font-size: 12px;text-align: left;">Infinity Ward</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Publisher:</h4>
+                    <p style="font-size: 12px;text-align: left;">Activision</p>
+                    <br>
+                </div>
+                <div>
+                    <h4 style="color: #FF5405;">Release date:</h4>
+                    <p style="font-size: 12px;text-align: left;">28 October 2022</p>
+                    <br><br>
+                    <h4 style="color: #FF5405;">Genre:</h4>
+                    <p style="font-size: 12px;text-align: left;">Third person shooter, Multiplayer online game</p>
+                    <br>
+                </div>
+            </div>
+            <br><a href="#download" class="ui-btn ui-shadow ui-corner-all" style="background-color: #373737 ; font-size: 16px; border: 3px solid #FF5405;
+            color: white; text-shadow: none; width: 80%; display: block; margin: 0 auto;">Download Now</a><br>
+            <h4 style="text-align: center; color: #FF5405;">Visuals</h4><br>
+            <img src="images/codV1.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"> <br>
+            <img src="images/codV2.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"> <br>
+            <img src="images/codV3.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"><br>
+            <img src="images/codV4.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"><br>
+            <img src="images/codV5.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;">
+        </div>
+    </div>
+    <!-- End of cod page-->
+
+    <!-- A jQM minecraft page -->
+    <div data-role="page" id="Minecraft" data-theme="b">
+        <div data-role="header">
+            <a href="#" data-rel="back"
+                class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-arrow-l ui-btn-icon-notext ui-btn-left ui-btn-b">Close</a>
+
+            <h1 class="SLogo">GAMINGSPOT</h1>
+            <a href="#nav-panel-Minecraft" data-icon="bars" data-iconpos="notext" class="ui-btn-right"
+                data-transition="fade">Menu</a>
+        </div>
+        <div data-role="panel" id="nav-panel-Minecraft" data-position="right" data-transition="fade">
+            <ul data-role="listview" data-transition="fade">
+                <a href="#homePage" class="ui-btn">
+                    <li>Home</li>
+                </a>
+                <a href="#aboutPage" class="ui-btn">
+                    <li>About</li>
+                </a>
+                <a href="#gamePage" class="ui-btn">
+                    <li>Games</li>
+                </a>
+                <a href="#reviewsPage" class="ui-btn">
+                    <li>Reviews</li>
+                </a>
+                <a href="#searchPage" class="ui-btn">
+                    <li>Search</li>
+                </a>
+                <a href="#contactPage" class="ui-btn">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h4 style="font-size: 19px; text-align: center; color: #FF5405;">Minecraft</h4><br>
+            <img src="images/minecraft.png" width="90%" style="margin: 0 auto; display: block; border-radius: 10px;">
+            <br>
+            <h4 style="text-align: center; color: #FF5405;">About the game</h4><br>
+            <p style="font-size: 12px;text-align: center; width: 80%; display: block; margin: 0 auto;">An open world,
+                sandbox game that is randomly generated. Players mine for minerals, build shelters, and fight off
+                monsters that come at night in Survival Mode. The game also features a Creative Mode, where the player
+                is invincible, has an unlimited supply of everything, can fly, and break blocks easily.</p><br><br>
+            <div id="row">
+                <div>
+                    <h4 style="color: #FF5405;">Software:</h4>
+                    <p style="font-size: 12px;text-align: left;">Steam</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Developer:</h4>
+                    <p style="font-size: 12px;text-align: left;">Xbox Game Studios</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Publisher:</h4>
+                    <p style="font-size: 12px;text-align: left;">Xbox Game Studios</p>
+                    <br>
+                </div>
+                <div>
+                    <h4 style="color: #FF5405;">Release date:</h4>
+                    <p style="font-size: 12px;text-align: left;">18 November 2011</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Genre:</h4>
+                    <p style="font-size: 12px;text-align: left;">3D sandbox</p>
+                    <br>
+                </div>
+            </div>
+            <br><a href="#download" class="ui-btn ui-shadow ui-corner-all" style="background-color: #373737 ; font-size: 16px; border: 3px solid #FF5405;
+            color: white; text-shadow: none; width: 80%; display: block; margin: 0 auto;">Download Now</a><br>
+            <h4 style="text-align: center; color: #FF5405;">Visuals</h4><br>
+            <img src="images/minecraftV1.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"> <br>
+            <img src="images/minecraftV2.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"> <br>
+            <img src="images/minecraftV3.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"><br>
+            <img src="images/minecraftV4.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"><br>
+            <img src="images/minecraftV5.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;">
+        </div>
+    </div>
+    <!-- End of minecraft page-->
+
+    <!-- A jQM resident page -->
+    <div data-role="page" id="ResidentE4" data-theme="b">
+        <div data-role="header">
+            <a href="#" data-rel="back"
+                class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-arrow-l ui-btn-icon-notext ui-btn-left ui-btn-b">Close</a>
+
+            <h1 class="SLogo">GAMINGSPOT</h1>
+            <a href="#nav-panel-ResidentE4" data-icon="bars" data-iconpos="notext" class="ui-btn-right"
+                data-transition="fade">Menu</a>
+        </div>
+        <div data-role="panel" id="nav-panel-ResidentE4" data-position="right" data-transition="fade">
+            <ul data-role="listview" data-transition="fade">
+                <a href="#homePage" class="ui-btn">
+                    <li>Home</li>
+                </a>
+                <a href="#aboutPage" class="ui-btn">
+                    <li>About</li>
+                </a>
+                <a href="#gamePage" class="ui-btn">
+                    <li>Games</li>
+                </a>
+                <a href="#reviewsPage" class="ui-btn">
+                    <li>Reviews</li>
+                </a>
+                <a href="#searchPage" class="ui-btn">
+                    <li>Search</li>
+                </a>
+                <a href="#contactPage" class="ui-btn">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h4 style="font-size: 19px; text-align: center; color: #FF5405;">Resident Evil 4</h4><br>
+            <img src="images/res4.jpg" width="90%" style="margin: 0 auto; display: block; border-radius: 10px;"> <br>
+            <h4 style="text-align: center; color: #FF5405;">About the game</h4><br>
+            <p style="font-size: 12px;text-align: center; width: 80%; display: block; margin: 0 auto;">The game main
+                protagonist is Leon S. Kennedy, one of the few survivors of the Raccoon City incident, who was recruited
+                and trained by the US Government to become a special agent after they learned of his actions in Raccoon
+                City. Now an agent for a special security agency, Leon is sent to Spain on a mission to rescue Ashley
+                Graham, the President daughter, who has been kidnapped by a mysterious cult organization.</p><br><br>
+            <div id="row">
+                <div>
+                    <h4 style="color: #FF5405;">Software:</h4>
+                    <p style="font-size: 12px;text-align: left;">Steam</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Developer:</h4>
+                    <p style="font-size: 12px;text-align: left;">Capcom</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Publisher:</h4>
+                    <p style="font-size: 12px;text-align: left;">Capcom</p>
+                </div>
+                <div><br>
+                    <h4 style="color: #FF5405;">Release date:</h4>
+                    <p style="font-size: 12px;text-align: left;">20 March 2023</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Genre:</h4>
+                    <p style="font-size: 12px;text-align: left;">Survival, Horror, Puzzle, Action , Adventure</p>
+                    <br>
+                </div>
+            </div>
+            <br><a href="#download" class="ui-btn ui-shadow ui-corner-all" style="background-color: #373737 ; font-size: 16px; border: 3px solid #FF5405;
+            color: white; text-shadow: none; width: 80%; display: block; margin: 0 auto;">Download Now</a><br>
+            <h4 style="text-align: center; color: #FF5405;">Visuals</h4><br>
+            <img src="images/res4V1.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"> <br>
+            <img src="images/res4V2.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"> <br>
+            <img src="images/res4V3.jpeg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"><br>
+            <img src="images/res4V4.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"><br>
+            <img src="images/res4V5.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;">
+        </div>
+    </div>
+    <!-- End of resident page-->
+
+    <!-- A jQM Amongus page -->
+    <div data-role="page" id="AmongusPage" data-theme="b">
+        <div data-role="header">
+            <a href="#" data-rel="back"
+                class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-arrow-l ui-btn-icon-notext ui-btn-left ui-btn-b">Close</a>
+
+            <h1 class="SLogo">GAMINGSPOT</h1>
+            <a href="#nav-panel-Amongus" data-icon="bars" data-iconpos="notext" class="ui-btn-right"
+                data-transition="fade">Menu</a>
+        </div>
+        <div data-role="panel" id="nav-panel-Amongus" data-position="right" data-transition="fade">
+            <ul data-role="listview" data-transition="fade">
+                <a href="#homePage" class="ui-btn">
+                    <li>Home</li>
+                </a>
+                <a href="#aboutPage" class="ui-btn">
+                    <li>About</li>
+                </a>
+                <a href="#gamePage" class="ui-btn">
+                    <li>Games</li>
+                </a>
+                <a href="#reviewsPage" class="ui-btn">
+                    <li>Reviews</li>
+                </a>
+                <a href="#searchPage" class="ui-btn">
+                    <li>Search</li>
+                </a>
+                <a href="#contactPage" class="ui-btn">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h4 style="font-size: 19px; text-align: center; color: #FF5405;">Among Us</h4><br>
+            <img src="images/amongus.png" width="90%" style="margin: 0 auto; display: block; border-radius: 10px;"> <br>
+            <h4 style="text-align: center; color: #FF5405;">About the game</h4><br>
+            <p style="font-size: 12px;text-align: center; width: 80%; display: block; margin: 0 auto;">Players are given
+                the role of either a crewmate or an impostor. The crewmates must complete a list of tasks on a spaceship
+                to get it ready for departure.</p><br><br>
+            <div id="row">
+                <div>
+                    <h4 style="color: #FF5405;">Software:</h4>
+                    <p style="font-size: 12px;text-align: left;">Steam</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Developer:</h4>
+                    <p style="font-size: 12px;text-align: left;">Innersloth</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Publisher:</h4>
+                    <p style="font-size: 12px;text-align: left;">Innersloth</p>
+                    <br>
+                </div>
+                <div>
+                    <h4 style="color: #FF5405;">Release date:</h4>
+                    <p style="font-size: 12px;text-align: left;">15 June 2018</p>
+                    <br>
+                    <h4 style="color: #FF5405;">Genre:</h4>
+                    <p style="font-size: 12px;text-align: left;">Survival, Multiplayer, Social</p>
+                    <br>
+                </div>
+            </div>
+            <br><a href="#download" class="ui-btn ui-shadow ui-corner-all" style="background-color: #373737 ; font-size: 16px; border: 3px solid #FF5405;
+            color: white; text-shadow: none; width: 80%; display: block; margin: 0 auto;">Download Now</a><br>
+            <h4 style="text-align: center; color: #FF5405;">Visuals</h4><br>
+            <img src="images/AmoungusV1.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"> <br>
+            <img src="images/AmoungusV2.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"> <br>
+            <img src="images/AmoungusV3.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"><br>
+            <img src="images/AmoungusV4.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;"><br>
+            <img src="images/AmoungusV5.jpg" alt="Amoungus" width="50%"
+                style="border-radius: 10px; display: block; margin: 0 auto;">
+        </div>
+    </div>
+    <!-- End of Amongus page-->
+    <!-- A jQM reviews page -->
+    <div data-role="page" id="reviewsPage" data-theme="b">
+        <div data-role="popup" id="positionWindow" class="ui-content" data-theme="a">
+            <h2>Stephen Weber</h2>
+            <p style="font-size: 15px;">I recently purchased several games from this website and I was very impressed
+                with the selection
+                and prices. The user interface was easy to use and I was able to find exactly what I was
+                looking for quickly. Shipping was also fast and the games arrived in excellent condition. I would
+                definitely
+                recommend this website to other gamers.</p>
+        </div>
+        <div data-role="popup" id="positionWindow2" class="ui-content" data-theme="a">
+            <h2>Alice Kim</h2>
+            <p style="font-size: 15px;">I had an issue with one of the games I purchased from this website, but the
+                customer service
+                was excellent. They responded quickly to my inquiry and were able to resolve the issue to my
+                satisfaction.
+                I appreciate their responsiveness and would definitely shop here again.</p>
+        </div>
+        <div data-role="popup" id="positionWindow3" class="ui-content" data-theme="a">
+            <h2>Avery Walker</h2>
+            <p style="font-size: 15px;"> love the selection of games available on this website. They have a wide variety
+                of titles,
+                including some hard to find games that I have been searching for. The prices are also very
+                reasonable and I appreciate the fast shipping.
+                Overall, a great experience and I would highly recommend this website to other gamers. </p>
+        </div>
+        <div data-role="popup" id="positionWindow4" class="ui-content" data-theme="a">
+            <h2>Gorge Mike</h2>
+            <p style="font-size: 15px;"> I was a little hesitant to shop on this website at first, but I am glad I did.
+                The user
+                interface was easy to use and the checkout process was smooth.
+                The games arrived quickly and were well packaged. I was impressed with the overall
+                experience and will definitely be shopping here again.</p>
+        </div>
+        <div data-role="popup" id="positionWindow5" class="ui-content" data-theme="a">
+            <h2>Mike John</h2>
+            <p style="font-size: 15px;"> This website is my go to for all my gaming needs. The selection of games is
+                always up to
+                date
+                and they have great deals and discounts.
+                I recently had to return a game and the customer service was excellent, they were able to
+                resolve the issue quickly and efficiently.
+                I appreciate the quality of the products and the overall experience of shopping on this
+                website.
+                Highly recommend </p>
+        </div>
+
+        <div data-role="header">
+            <a href="#" data-rel="back"
+                class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-arrow-l ui-btn-icon-notext ui-btn-left ui-btn-b">Close</a>
+
+            <h1 class="SLogo">GAMINGSPOT</h1>
+            <a href="#nav-panelR" data-icon="bars" data-iconpos="notext" class="ui-btn-right"
+                data-transition="fade">Menu</a>
+        </div>
+        <div data-role="panel" id="nav-panelR" data-position="right" data-transition="fade">
+            <ul data-role="listview" data-transition="fade">
+                <a href="#homePage" class="ui-btn">
+                    <li>Home</li>
+                </a>
+                <a href="#aboutPage" class="ui-btn">
+                    <li>About</li>
+                </a>
+                <a href="#gamePage" class="ui-btn">
+                    <li>Games</li>
+                </a>
+                <a href="#reviewsPage" class="ui-btn">
+                    <li>Reviews</li>
+                </a>
+                <a href="#searchPage" class="ui-btn">
+                    <li>Search</li>
+                </a>
+                <a href="#contactPage" class="ui-btn">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h4 style="font-size: 19px; text-align: center;">Reviews</h4>
+            <ul data-role="listview" data-inset="true" id="reviewslist">
+                <li data-role="list-divider" style="color: #FF5405;">Friday, October 8, 2021 <span class="ui-li-count"
+                        style="background-color: #373737 ; color: #FF5405;">2</span></li>
+                <li data-icon="false" style="background-color: #373737 ; color: white; text-shadow: none;">
+                    <a href="#positionWindow" class="ui-btn ui-shadow ui-btn-inline" data-rel="popup"
+                        data-position-to="window">
+                        <h2>Stephen Weber</h2>
+                        <p>I recently purchased several games from this website and I was very impressed with the
+                            selection
+                            and prices.<br>The user interface was easy to use and I was able to find exactly what I was
+                            looking for
+                            quickly.
+                            Shipping was also <br> fast and the games arrived in excellent condition. I would definitely
+                            recommend this website to other gamers.</p>
+                        <p class="ui-li-aside"><strong>6:24</strong>PM</p>
+                    </a>
+                </li>
+                <li data-icon="false" style="background-color: #373737 ; color: white; text-shadow: none;">
+                    <a href="#positionWindow2" class="ui-btn ui-shadow ui-btn-inline" data-rel="popup"
+                        data-position-to="window">
+                        <h2>Alice Kim</h2>
+                        <p>I had an issue with one of the games I purchased from this website, but the customer service
+                            was
+                            excellent. <br>
+                            They responded quickly to my inquiry and were able to resolve the issue to my satisfaction.
+                            I
+                            appreciate their responsiveness and would definitely shop here again.</p>
+                        <p class="ui-li-aside"><strong>9:18</strong>AM</p>
+                    </a>
+                </li>
+                <li data-role="list-divider" style="color: #FF5405;">Thursday, October 7, 2020 <span class="ui-li-count"
+                        style="background-color: #373737 ; color: #FF5405; ">3</span></li>
+                <li data-icon="false" style="background-color: #373737 ; color: white; text-shadow: none;">
+                    <a href="#positionWindow3" class="ui-btn ui-shadow ui-btn-inline" data-rel="popup"
+                        data-position-to="window">
+                        <h2>Avery Walker</h2>
+                        <p> love the selection of games available on this website. They have a wide variety of titles,
+                            <br>
+                            including some hard to find games that I have been searching for. The prices are also very
+                            reasonable and I appreciate the fast shipping. <br>
+                            Overall, a great experience and I would highly recommend this website to other gamers.
+                        </p>
+                        <p class="ui-li-aside"><strong>4:48</strong>PM</p>
+                    </a>
+                </li>
+                <li data-icon="false" style="background-color: #373737 ; color: white; text-shadow: none;">
+                    <a href="#positionWindow4" class="ui-btn ui-shadow ui-btn-inline" data-rel="popup"
+                        data-position-to="window">
+                        <h2>Gorge Mike</h2>
+                        <p> I was a little hesitant to shop on this website at first, but I am glad I did. The user
+                            interface was easy to use and the checkout process was smooth.
+                            <br> The games arrived quickly and were well packaged. I was impressed with the overall
+                            experience and will definitely be shopping here again.
+                        </p>
+                        <p class="ui-li-aside"><strong>2:08</strong>PM</p>
+                    </a>
+                </li>
+                <li data-icon="false" style="background-color: #373737 ; color: white; text-shadow: none;">
+                    <a href="#positionWindow5" class="ui-btn ui-shadow ui-btn-inline" data-rel="popup"
+                        data-position-to="window">
+                        <h2>Mike John</h2>
+                        <p> This website is my go to for all my gaming needs. The selection of games is always up to
+                            date
+                            and they have great deals and discounts. <br>
+                            I recently had to return a game and the customer service was excellent, they were able to
+                            resolve the issue quickly and efficiently. <br>
+                            I appreciate the quality of the products and the overall experience of shopping on this
+                            website.
+                            Highly recommend </p>
+                        <p class="ui-li-aside"><strong>10:55</strong>AM</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End of reviews page-->
+    <!-- A jQM about page -->
+    <div data-role="page" id="aboutPage" data-theme="b">
+        <div data-role="header">
+            <a href="#" data-rel="back"
+                class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-arrow-l ui-btn-icon-notext ui-btn-left ui-btn-b">Close</a>
+
+            <h1 class="SLogo">GAMINGSPOT</h1>
+            <a href="#nav-panelA" data-icon="bars" data-iconpos="notext" class="ui-btn-right"
+                data-transition="fade">Menu</a>
+        </div>
+        <div data-role="panel" id="nav-panelA" data-position="right" data-transition="fade">
+            <ul data-role="listview" data-transition="fade">
+                <a href="#homePage" class="ui-btn">
+                    <li>Home</li>
+                </a>
+                <a href="#aboutPage" class="ui-btn">
+                    <li>About</li>
+                </a>
+                <a href="#gamePage" class="ui-btn">
+                    <li>Games</li>
+                </a>
+                <a href="#reviewsPage" class="ui-btn">
+                    <li>Reviews</li>
+                </a>
+                <a href="#searchPage" class="ui-btn">
+                    <li>Search</li>
+                </a>
+                <a href="#contactPage" class="ui-btn">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h4 style="font-size: 19px; text-align: center; margin-bottom: 5%;">About us</h4>
+            <div id="aboutC1" data-inset="true">
+                <div>
+                    <p>Gaming Spot is an online gaming store that caters to the needs of every type of gamer. With a
+                        vast collection of video games ranging from action packed shooters to immersive RPGs, Gaming
+                        Spot offers something for
+                        everyone.<br><br>
+                        In addition to offering a wide range of video games, Gaming Spot also boasts a quick delivery
+                        system. Users can purchase and download their games in minutes, allowing them to start playing
+                        their favorite games without any delay. The website also offers regular discounts and deals on
+                        popular titles, making it an affordable option for gamers on a budget.
+                        <br><br> Gaming Spot is a one stop shop for all gaming needs. With its extensive collection,
+                        user friendly interface, and quick delivery system, it is the perfect destination for gamers
+                        looking to find their next favorite game.
+                    </p>
+                </div>
+                <div id="hide"><img src="images/Ahri.png" alt="Ahri" width="100%" style="margin-top: 5%;"></div>
+            </div>
+            <img id="show" src="images/Ahri.png" alt="Ahri" width="100%" style="margin-top: 5%;">
+        </div>
+    </div>
+    <!-- End of about page-->
+    <!-- A jQM contact page -->
+    <div data-role="page" id="contactPage" data-theme="b">
+        <div data-role="header">
+            <a href="#" data-rel="back"
+                class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-arrow-l ui-btn-icon-notext ui-btn-left ui-btn-b">Close</a>
+            <h1 class="SLogo">GAMINGSPOT</h1>
+            <a href="#nav-panelC" data-icon="bars" data-iconpos="notext" class="ui-btn-right"
+                data-transition="fade">Menu</a>
+        </div>
+        <div data-role="panel" id="nav-panelC" data-position="right" data-transition="fade">
+            <ul data-role="listview" data-transition="fade">
+                <a href="#homePage" class="ui-btn">
+                    <li>Home</li>
+                </a>
+                <a href="#aboutPage" class="ui-btn">
+                    <li>About</li>
+                </a>
+                <a href="#gamePage" class="ui-btn">
+                    <li>Games</li>
+                </a>
+                <a href="#reviewsPage" class="ui-btn">
+                    <li>Reviews</li>
+                </a>
+                <a href="#searchPage" class="ui-btn">
+                    <li>Search</li>
+                </a>
+                <a href="#contactPage" class="ui-btn">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h4 style="font-size: 19px; text-align: center;">Contact us</h4><br>
+            <!--Fill form text-->
+            <div class="fillform">
+                <h4 style="font-size: 19px; text-align: center;">Fill up this form to contact you</h4>
+            </div>
+            <div class="formcontent"> <!--Contact form container-->
+                <!--Contant form-->
+                <form method="post" target="_blank" action="https://formspree.io/f/mpzenroj" class="contantus"
+                    data-theme="b">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required /><br><br>
+                    <label for="mail">Email:</label><br>
+                    <input type="email" id="mail" name="mail" placeholder="Enter Your Email" required /><br><br>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="number" id="phone" name="phone" placeholder="Enter Your Mobile Number"
+                        required /><br><br>
+                    <input href="#contact" value="Submit" id="submit" type="submit" name="submit" style="  text-align: center; display: block; margin: 0 auto; border: #FF4F33 solid 3px;
+                         border-radius: 10px;
+                         box-sizing: border-box;
+                         background-color: #2d2a2e;
+                         font-family: Malberg;
+                         color: white;">
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- End of contact page-->
+    <!--contact 2 page-->
+    <div data-role="page" id="contact" data-theme="b">
+        <div data-role="header">
+            <a href="#" data-rel="back"
+                class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-arrow-l ui-btn-icon-notext ui-btn-left ui-btn-b">Close</a>
+            <h1 class="SLogo">GAMINGSPOT</h1>
+
+            <a href="#nav-panel-contact" data-icon="bars" data-iconpos="notext" class="ui-btn-right"
+                data-transition="fade">Menu</a>
+        </div>
+        <div data-role="panel" id="nav-panel-contact" data-position="right" data-transition="fade">
+            <ul data-role="listview" data-transition="fade">
+                <a href="#homePage" class="ui-btn">
+                    <li>Home</li>
+                </a>
+                <a href="#aboutPage" class="ui-btn">
+                    <li>About</li>
+                </a>
+                <a href="#gamePage" class="ui-btn">
+                    <li>Games</li>
+                </a>
+                <a href="#reviewsPage" class="ui-btn">
+                    <li>Reviews</li>
+                </a>
+                <a href="#searchPage" class="ui-btn">
+                    <li>Search</li>
+                </a>
+                <a href="#contactPage" class="ui-btn">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <br><br><br><br><br>
+            <img src="images/check.png" alt="">
+            <br><br><br>
+            <h5 style="text-align: center; font-size: 15px;">Thank you <br>
+                We will reach to you soon</h5>
+            <br><br><br>
+            <a href="#homePage" class="ui-btn ui-shadow ui-corner-all" style="background-color: #373737 ; font-size: 16px; border: 3px solid #FF5405;
+        color: white; text-shadow: none; width: 60%; display: block; margin: 0 auto;">Back To Home</a>
+        </div>
+
+    </div>
+    <!-- End of contact 2 page-->
+    <!-- search jQM page -->
+    <div data-role="page" id="searchPage" data-theme="b">
+        <div data-role="header">
+            <a href="#" data-rel="back"
+                class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-arrow-l ui-btn-icon-notext ui-btn-left ui-btn-b">Close</a>
+            <h1 class="SLogo">GAMINGSPOT</h1>
+            <a href="#nav-panelS" data-icon="bars" data-iconpos="notext" class="ui-btn-right"
+                data-transition="slide">Menu</a>
+        </div>
+        <div data-role="panel" id="nav-panelS" data-position="right">
+            <ul data-role="listview">
+                <a href="#homePage" class="ui-btn">
+                    <li>Home</li>
+                </a>
+                <a href="#aboutPage" class="ui-btn">
+                    <li>About</li>
+                </a>
+                <a href="#gamePage" class="ui-btn">
+                    <li>Games</li>
+                </a>
+                <a href="#reviewsPage" class="ui-btn">
+                    <li>Reviews</li>
+                </a>
+                <a href="#searchPage" class="ui-btn">
+                    <li>Search</li>
+                </a>
+                <a href="#contactPage" class="ui-btn">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h4 style="font-size: 19px; text-align: center;">Search</h4>
+            <form class="ui-filterable">
+                <input id="filterBasic-input" data-type="search" data-theme="a">
+            </form>
+            <ul data-role="listview" data-inset="true" data-filter="true" data-input="#filterBasic-input">
+                <li data-role="list-divider"
+                    style="text-align: center; background-color: #1c1b1d; color: #FF5405; text-shadow: none;">Hot deals
+                </li>
+                <li><a href="#cod">Call Of Duty</a></li>
+                <li><a href="#fifa">FIFA 23</a></li>
+                <li><a href="#sifu">Sifu</a></li>
+                <li><a href="#deadSpace">Dead Space</a></li>
+                <li data-role="list-divider"
+                    style="text-align: center; background-color: #1c1b1d; color: #FF5405; text-shadow: none;">New Games
+                </li>
+                <li><a href="#eldenRing">Elden Ring</a></li>
+                <li><a href="#plagueTale">Plague Tale</a></li>
+                <li><a href="#ResidentE4">Resident Evil 4</a></li>
+                <li data-role="list-divider"
+                    style="text-align: center; background-color: #1c1b1d; color: #FF5405; text-shadow: none;">Most
+                    popular</li>
+                <li><a href="#tombraider">Tomb Raider</a></li>
+                <li><a href="#AmongusPage">Among Us</a></li>
+                <li><a href="#Minecraft">Minecraft</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <!-- End of search jQM page-->
+    <!-- A jQM game page -->
+    <div data-role="page" id="gamePage" data-theme="b">
+        <div data-role="header">
+            <a href="#" data-rel="back"
+                class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-arrow-l ui-btn-icon-notext ui-btn-left ui-btn-b">Close</a>
+
+            <h1 class="SLogo">GAMINGSPOT</h1>
+            <a href="#nav-panelG" data-icon="bars" data-iconpos="notext" class="ui-btn-right"
+                data-transition="fade">Menu</a>
+        </div>
+        <div data-role="panel" id="nav-panelG" data-position="right" data-transition="fade">
+            <ul data-role="listview" data-transition="fade">
+                <a href="#homePage" class="ui-btn">
+                    <li>Home</li>
+                </a>
+                <a href="#aboutPage" class="ui-btn">
+                    <li>About</li>
+                </a>
+                <a href="#gamePage" class="ui-btn">
+                    <li>Games</li>
+                </a>
+                <a href="#reviewsPage" class="ui-btn">
+                    <li>Reviews</li>
+                </a>
+                <a href="#searchPage" class="ui-btn">
+                    <li>Search</li>
+                </a>
+                <a href="#contactPage" class="ui-btn">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h4 style="font-size: 19px; text-align: center;">Games</h4><br><br>
+
+            <div data-role="collapsibleset" data-theme="b" data-content-theme="a">
+                <div data-role="collapsible" data-collapsed="false">
+                    <h3 style="text-align: center; background-color: #1c1b1d; color: #FF5405; text-shadow: none;">Hot
+                        deals</h3>
+                    <ul data-role="listview">
+                        </li>
+                        <li><a href="#cod">
+                                <img src="images/cod-square.jpg">
+                                <h2>Call Of Duty</h2>
+                                <p>You play various American servicemen and their allies in World War II as the Western
+                                    Allies
+                                    fight their way through Europe during and after the invasion of Normandy.</p>
+                            </a></li>
+                        <li>
+                            <a href="#fifa">
+                                <img src="images/fifa-square.jpg">
+                                <h2>FFIA</h2>
+                                <p>FIFA 23 features the men's World Cup game mode and is reported to feature the women's
+                                    World
+                                    Cup game mode in the future, replicating the 2022 FIFA World Cup and the 2023 FIFA
+                                    Women's
+                                    World Cup</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#sifu">
+                                <img src="images/sifu-square.jpg">
+                                <h2>Sifu</h2>
+                                <p>Set in modern-day China, players control the child of a martial arts school's sifu
+                                    (master)
+                                    who seeks revenge on those responsible for their father's death. </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#deadSpace">
+                                <img src="images/dead space-square.jpg">
+                                <h2>Dead Space</h2>
+                                <p>Set in the year 2508, a time when humanity has spread throughout the universe. </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div data-role="collapsible">
+                    <h3 style="text-align: center; background-color: #1c1b1d; color: #FF5405; text-shadow: none;">New
+                        Games</h3>
+                    <ul data-role="listview">
+                        <li>
+                            <a href="#eldenRing">
+                                <img src="images/elden ring-square.jpg">
+                                <h2>Elden Ring</h2>
+                                <p>A fantasy action-RPG adventure set within a world created by Hidetaka Miyazaki and
+                                    George
+                                    R.R. Martin.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#plagueTale">
+                                <img src="images/plague tale-square.jpg">
+                                <h2>Plague Tale</h2>
+                                <p>Follow the grim tale of young Amicia and her little brother Hugo, in a heartrending
+                                    journey
+                                    through the darkest hours of history.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#ResidentE4">
+                                <img src="images/res4-square.jpg">
+                                <h2>Resident Evil 4</h2>
+                                <p>It consists of survival horror, third-person shooter and first-person shooter games,
+                                    with
+                                    players typically surviving in environments inhabited by zombies and other
+                                    frightening
+                                    creatures.</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div data-role="collapsible">
+                    <h3 style="text-align: center; background-color: #1c1b1d; color: #FF5405; text-shadow: none;">Most
+                        Popular</li>
+                    </h3>
+                    <ul data-role="listview">
+                        <li>
+                            <a href="#Minecraft">
+                                <img src="images/minecraft-square.jpg">
+                                <h2>Minecraft</h2>
+                                <p>A 3-D computer game where players can build anything.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#AmongusPage">
+                                <img src="images/Amongus-square.jpg">
+                                <h2>Among Us</h2>
+                                <p>A multiplayer game where 10 players get dropped into an alien spaceship, sky
+                                    headquarters or
+                                    planet base, where each player is designated with a private role of either a
+                                    “crewmate” and
+                                    an “impostor.”</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#tombraider">
+                                <img src="images/tombraider-square.jpg">
+                                <h2>Tomb Raider</h2>
+                                <p>Explores the intense and gritty origin story of Lara Croft and her ascent from a
+                                    young woman
+                                    to a hardened survivor. </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End of game page-->
+    <!-- home jQM page -->
+
+    <!-- End of home jQM page-->
+    <!--Js-->
+    <script>
+        $("#slideshow > div:gt(0)").hide();
+        setInterval(function () {
+            $('#slideshow > div:first')
+                .fadeOut(1000)
+                .next()
+                .fadeIn(1000)
+                .end()
+                .appendTo('#slideshow');
+        }, 2500);
+
+        function Thankyou() {
+            alert("Thank you we will contact you soon.");
+        }
+    </script>
+    <!--end-->
+    <!-- APIs js scripts -->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <!-- Our js Scripts -->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
